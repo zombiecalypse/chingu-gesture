@@ -1,4 +1,5 @@
 class ChinguGesture
+  VERSION = "1.0"
   # Get all points for debugging, etc
   def to_a
     (0...size).collect do |i|
@@ -31,4 +32,4 @@ class ChinguGesture
     end
   end
 end
-require 'chingu_gesture/chingu_gesture'
+require_relative 'chingu_gesture/chingu_gesture'
