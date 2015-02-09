@@ -275,7 +275,7 @@ static VALUE chingu_gesture_recognize(VALUE self) {
       min_name = i;
     }
   }
-  return rb_ary_new3(2, UINT2NUM(min_name), UINT2NUM(min_dist));
+  return rb_ary_new3(2, UINT2NUM(min_name), DBL2NUM(min_dist));
 }
 
 // ruby interface

@@ -1,5 +1,5 @@
 class ChinguGesture
-  VERSION = "1.0"
+  VERSION = "1.0.1"
   # Get all points for debugging, etc
   def to_a
     (0...size).collect do |i|
